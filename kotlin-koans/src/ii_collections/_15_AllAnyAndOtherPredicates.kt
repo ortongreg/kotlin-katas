@@ -20,20 +20,24 @@ fun Customer.isFrom(city: City): Boolean {
 
 fun Shop.checkAllCustomersAreFrom(city: City): Boolean {
     // Return true if all customers are from the given city
-    return this.customers.all { it.isFrom(city) }
+    return false;
+//    return this.customers.all { it.isFrom(city) }
 }
 
 fun Shop.hasCustomerFrom(city: City): Boolean {
     // Return true if there is at least one customer from the given city
-    return this.customers.any { it.isFrom(city) }
+    return false;
+    //return this.customers.any { it.isFrom(city) }
 }
 
 fun Shop.countCustomersFrom(city: City): Int {
     // Return the number of customers from the given city
-    return this.customers.count { it.isFrom(city) }
+    return 0;
+    //return this.customers.count { it.isFrom(city) }
 }
 
 fun Shop.findAnyCustomerFrom(city: City): Customer? {
     // Return a customer who lives in the given city, or null if there is none
-    return this.customers.firstOrNull { it.isFrom(city) }
+    return null;
+//    return this.customers.firstOrNull { it.isFrom(city) }
 }

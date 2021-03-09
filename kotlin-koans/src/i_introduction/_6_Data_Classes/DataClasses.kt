@@ -17,7 +17,11 @@ fun todoTask6(): Nothing = TODO(
 data class Person(val name: String, val age: Int)
 
 fun task6(): List<Person> {
+    return listOf();
+/* HIDE ANSWER
     //    todoTask6()
     return listOf(Person("Alice", 29), Person("Bob", 31))
+
+ */
 }
 

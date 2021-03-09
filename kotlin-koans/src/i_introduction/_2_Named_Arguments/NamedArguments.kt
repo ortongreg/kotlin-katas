@@ -21,5 +21,9 @@ fun todoTask2(): Nothing = TODO(
         references = *arrayOf({ collection: Collection<Int> -> task1(collection); collection.joinToString() }))
 
 fun task2(collection: Collection<Int>): String {
+    return "";
+
+    /* HIDE ANSWER
     return collection.joinToString(prefix = "{", postfix = "}")
+     */
 }

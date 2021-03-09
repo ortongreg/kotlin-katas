@@ -17,6 +17,8 @@ fun todoTask10(): Nothing = TODO(
 )
 
 fun task10(): List<Int> {
+    return arrayListOf();
+/* HIDE ANSWER
     val arrayList = arrayListOf(1, 5, 2)
     Collections.sort(arrayList, object : Comparator<Int> {
         override fun compare(o1: Int, o2: Int): Int {
@@ -24,4 +26,5 @@ fun task10(): List<Int> {
         }
     })
     return arrayList
+ */
 }

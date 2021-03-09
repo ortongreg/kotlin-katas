@@ -7,11 +7,15 @@ class Num(val value: Int) : Expr
 class Sum(val left: Expr, val right: Expr) : Expr
 
 fun eval(e: Expr): Int =
+        0;
+/* HIDE ANSWER
         when (e) {
             is Num -> e.value
             is Sum -> eval(e.left) + eval(e.right)
             else -> throw IllegalArgumentException("Unknown expression")
         }
+
+ */
 
 fun todoTask8(expr: Expr): Nothing = TODO(
     """

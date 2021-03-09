@@ -34,6 +34,10 @@ fun todoTask5(): Nothing = TODO(
     documentation = doc5(),
         references = *arrayOf({ getPattern(); month }))
 
-fun task5(): String = """\d{2} $month \d{4}"""
+fun task5(): String =
+    "";
+/* HIDE ANSWER
+"""\d{2} $month \d{4}"""
 //fun task5(): String = "\\d{2} $month \\d{4}"
+ */
 
