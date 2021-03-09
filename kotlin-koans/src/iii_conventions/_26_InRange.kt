@@ -13,7 +13,7 @@ fun todoTask26_(): Nothing = TODO(
         Add all changes to the file MyDate.kt.
     """,
     documentation = doc26(),
-    references = { range: ClosedRange<Int> -> }
+        references = *arrayOf({ range: ClosedRange<Int> -> })
 )
 
 fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean {

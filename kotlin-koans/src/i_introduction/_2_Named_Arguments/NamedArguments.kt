@@ -18,7 +18,7 @@ fun todoTask2(): Nothing = TODO(
         Specify only two of the 'joinToString' arguments.
     """,
     documentation = doc2(),
-    references = { collection: Collection<Int> -> task1(collection); collection.joinToString() })
+        references = *arrayOf({ collection: Collection<Int> -> task1(collection); collection.joinToString() }))
 
 fun task2(collection: Collection<Int>): String {
     return collection.joinToString(prefix = "{", postfix = "}")

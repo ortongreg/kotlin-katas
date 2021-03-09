@@ -19,5 +19,5 @@ fun todoTask8(expr: Expr): Nothing = TODO(
         Rewrite 'JavaCode8.eval()' in Kotlin using smart casts and 'when' expression.
     """,
     documentation = doc8(),
-    references = { JavaCode8().eval(expr) })
+        references = *arrayOf({ JavaCode8().eval(expr) }))
 

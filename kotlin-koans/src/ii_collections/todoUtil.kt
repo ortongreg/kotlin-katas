@@ -9,5 +9,5 @@ fun todoCollectionTask(): Nothing = TODO(
            Return what is described in the name and the comment.
 
         """,
-        references = { shop: Shop -> shop.customers }
+        references = *arrayOf({ shop: Shop -> shop.customers })
 )

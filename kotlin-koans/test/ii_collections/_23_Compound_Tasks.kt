@@ -14,7 +14,7 @@ class _23_Compound_Tasks {
     @Test fun testMostExpensiveDeliveredProduct() {
         val testShop = ii_collections.shopBuilders.shop("test shop for 'most expensive delivered product'") {
             customer(lucas, Canberra) {
-                order(isDelivered = false, products = idea)
+                order(isDelivered = false, products = *arrayOf(idea))
                 order(reSharper)
             }
         }

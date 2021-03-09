@@ -19,7 +19,7 @@ fun todoTask0(): Nothing = TODO(
         To start please make the function 'task0' return "OK".
     """,
     documentation = doc0(),
-    references = { task0(); "OK" }
+        references = *arrayOf({ task0(); "OK" })
 )
 
 fun task0(): String {

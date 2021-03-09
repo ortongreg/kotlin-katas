@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="KotlinJavaRuntime">
     <CLASSES>
-      <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../kotlin-stdlib-1.4.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../kotlin-stdlib-common-1.4.0-rc.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-runtime-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/../kotlin-stdlib-common-1.4.0-rc.jar!/" recursive="false" />
   </library>
 </component>

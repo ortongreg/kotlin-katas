@@ -19,7 +19,7 @@ fun todoTask7(client: Client?, message: String?, mailer: Mailer): Nothing = TODO
         Declarations of Client, PersonalInfo and Mailer are given below.
     """,
         documentation = doc7(),
-        references = { JavaCode7().sendMessageToClient(client, message, mailer) }
+        references = *arrayOf({ JavaCode7().sendMessageToClient(client, message, mailer) })
 )
 
 fun sendMessageToClient(

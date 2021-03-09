@@ -18,7 +18,7 @@ fun todoTask4(collection: Collection<Int>): Nothing = TODO(
         (Don't use the class 'Iterables').
     """,
         documentation = doc4(),
-        references = { JavaCode4().task4(collection) })
+        references = *arrayOf({ JavaCode4().task4(collection) }))
 
 fun task4(collection: Collection<Int>): Boolean = collection.any { x -> x % 42 == 0 }
 

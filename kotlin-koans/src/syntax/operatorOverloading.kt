@@ -34,7 +34,7 @@ interface B {
     operator fun minus(a: A): B
     operator fun times(a: A): B
     operator fun div(a: A): B
-    operator fun mod(a: A): B
+    //operator fun mod(a: A): B
     operator fun rangeTo(a: A): B
 }
 
@@ -47,7 +47,7 @@ fun binaryAndUnaryOperations(a: A, b: B) {
     b - a
     b * a
     b / a
-    b % a
+    //b % a
     b..a
 
     var b1 = b
@@ -64,7 +64,7 @@ interface D {
     operator fun minusAssign(a: A)
     operator fun timesAssign(a: A)
     operator fun divAssign(a: A)
-    operator fun modAssign(a: A)
+    //operator fun modAssign(a: A)
 }
 
 fun assignmentOperations(d: D, a: A) {

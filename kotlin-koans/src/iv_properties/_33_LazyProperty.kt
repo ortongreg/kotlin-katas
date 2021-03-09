@@ -21,5 +21,5 @@ fun todoTask33(): Nothing = TODO(
         You can add as many additional properties as you need.
         Do not use delegated properties!
     """,
-        references = { LazyProperty({ 42 }).lazy }
+        references = *arrayOf({ LazyProperty({ 42 }).lazy })
 )

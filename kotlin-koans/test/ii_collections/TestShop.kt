@@ -42,8 +42,8 @@ val shop = shop("test shop") {
         order(rubyMine, webStorm)
     }
     customer(reka, Budapest) {
-        order(isDelivered = false, products = idea)
-        order(isDelivered = false, products = idea)
+        order(isDelivered = false, products = *arrayOf(idea))
+        order(isDelivered = false, products = *arrayOf(idea))
         order(idea)
     }
     customer(bajram, Ankara) {
