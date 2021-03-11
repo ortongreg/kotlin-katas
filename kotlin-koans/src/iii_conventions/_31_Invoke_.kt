@@ -20,5 +20,6 @@ fun todoTask31(): Nothing = TODO(
 
 fun task31(invokable: Invokable): Int {
     //    todoTask31()
-    return invokable()()()().getNumberOfInvocations()
+    // return invokable()()()().getNumberOfInvocations()
+    return -1
 }

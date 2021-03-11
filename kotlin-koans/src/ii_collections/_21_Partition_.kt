@@ -12,7 +12,12 @@ fun example8() {
 
 fun Shop.getCustomersWithMoreUndeliveredOrdersThanDelivered(): Set<Customer> {
     // Return customers who have more undelivered orders than delivered
+    return setOf();
+
+/* HIDE ANSWER
     val (withMoreUndelivered, equalOrMoreWhat) = customers.partition { it.orders.map { if(it.isDelivered) 1 else -1}.sum() < 0 }
 
     return withMoreUndelivered.toSet()
+
+ */
 }

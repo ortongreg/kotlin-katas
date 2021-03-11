@@ -14,5 +14,8 @@ fun todoTask27(): Nothing = TODO(
 )
 
 fun checkInRange2(date: MyDate, first: MyDate, last: MyDate): Boolean {
+    return false;
+/* HIDE ANSWER
     return date in first..last
+ */
 }

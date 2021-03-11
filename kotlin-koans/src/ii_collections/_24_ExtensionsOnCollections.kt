@@ -12,9 +12,14 @@ fun todoTask24(): Nothing = TODO(
 )
 
 fun doSomethingStrangeWithCollection(collection: Collection<String>): Collection<String>? {
-    val groupsByLength = collection.groupBy { it.length }
+
+    return null;
+/* HIDE ANSWER
+val groupsByLength = collection.groupBy { it.length }
 
     return groupsByLength.values.maxBy { it.size }
+ */
+
 }
 
 

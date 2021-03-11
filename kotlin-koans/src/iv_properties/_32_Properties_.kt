@@ -6,7 +6,7 @@ class PropertyExample() {
     var counter = 0
     var propertyWithCounter: Int? = 0
         set(value) {
-            counter++
+           // counter++
             field = value
         }
 }
